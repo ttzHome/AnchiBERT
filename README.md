@@ -14,6 +14,8 @@ AnchiBERT是一个基于BERT的古文领域预训练模型。
 
 
 ## 模型使用
+> 我们的模型是PyTorch版本，如需tensorflow版本请通过[huggingface]提供的(https://github.com/huggingface/transformers)脚本进行转换。
+
 代码如下
 ```python
 from transformers import (BertTokenizer,BertConfig,BertModel)
