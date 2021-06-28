@@ -18,9 +18,9 @@ AnchiBERT是一个基于BERT的古文领域预训练模型。
 ```python
 from transformers import (BertTokenizer,BertConfig,BertModel)
 
-config = BertConfig.from_pretrained('model_path/anchibert')
-tokenizer = BertTokenizer.from_pretrained('model_path/anchibert')
-model = BertModel.from_pretrained('model_path/anchibert',config=config)
+config = BertConfig.from_pretrained('model_path/AnchiBERT')
+tokenizer = BertTokenizer.from_pretrained('model_path/AnchiBERT')
+model = BertModel.from_pretrained('model_path/AnchiBERT',config=config)
 ```
 该模型是基于huggingface的代码继续预训练得到，在下游任务的使用上和[Huggingface Transformers](https://github.com/huggingface/transformers)的模型使用方式相同。
 
