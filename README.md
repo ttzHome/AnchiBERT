@@ -30,7 +30,7 @@ encoder = BertModel.from_pretrained('model_path/anchibert',config=config)
 ## 引用
 该工作已经整理撰写成[论文](https://arxiv.org/abs/2009.11473)发表在IJCNN2021，欢迎在论文中引用本工作。
 ```bibtex
-
+I will realse the model today, thanks for your attention!
 ```
 
 
