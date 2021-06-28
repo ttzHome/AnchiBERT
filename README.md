@@ -30,22 +30,14 @@ encoder = BertModel.from_pretrained('model_path/anchibert',config=config)
 ## 引用
 该工作已经整理撰写成[论文](https://arxiv.org/abs/2009.11473)发表在IJCNN2021，欢迎在论文中引用本工作。
 ```bibtex
-@article{DBLP:journals/corr/abs-2009-11473,
+@article{AnchiBERT,
   author    = {Huishuang Tian and
                Kexin Yang and
                Dayiheng Liu and
                Jiancheng Lv},
   title     = {AnchiBERT: {A} Pre-Trained Model for Ancient ChineseLanguage Understanding
                and Generation},
-  journal   = {CoRR},
-  volume    = {abs/2009.11473},
-  year      = {2020},
-  url       = {https://arxiv.org/abs/2009.11473},
-  archivePrefix = {arXiv},
-  eprint    = {2009.11473},
-  timestamp = {Thu, 04 Mar 2021 17:19:30 +0100},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2009-11473.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  booktitle = { {IJCNN} 2021}
 }
 ```
 
