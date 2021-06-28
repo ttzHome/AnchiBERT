@@ -9,8 +9,7 @@ AnchiBERT是一个古文领域的预训练模型。
 ## 模型使用
 代码如下
 ```python
-from transformers import (BertTokenizer,
-                              BertConfig,BertModel)
+from transformers import (BertTokenizer,BertConfig,BertModel)
 
 config = BertConfig.from_pretrained('model_path/anchibert')
 tokenizer = BertTokenizer.from_pretrained('model_path/anchibert')
