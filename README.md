@@ -20,8 +20,9 @@ from transformers import (BertTokenizer,BertConfig,BertModel)
 
 config = BertConfig.from_pretrained('model_path/anchibert')
 tokenizer = BertTokenizer.from_pretrained('model_path/anchibert')
-encoder = BertModel.from_pretrained('model_path/anchibert',config=config)
+model = BertModel.from_pretrained('model_path/anchibert',config=config)
 ```
+该模型是基于huggingface的代码继续预训练得到，在下游任务的使用上和huggingface的模型使用方式相同。
 
 ## 模型下载
 
