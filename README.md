@@ -1,8 +1,6 @@
 
 
-# AnchiBERT
-
-AnchiBERT: A Pre-Trained Model for Ancient Chinese Language Understanding and Generation(古文预训练模型)
+# AnchiBERT(古文领域预训练模型)
 
 
 AnchiBERT是一个基于BERT的古文领域预训练模型。
