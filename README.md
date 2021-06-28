@@ -10,7 +10,7 @@ AnchiBERT是一个基于BERT的古文领域预训练模型。
 使用监督模型，这在很大程度上依赖于规模平行数据集。然而，这些数据集成本高昂且由于需要专家注释，难以获得。
 在缺乏平行数据的情况下，以往的研究提出预先训练语言模型以利用大规模未标注语料库以进一步提高模型性能。
 
-因此我们提出了 AnchiBERT，一种基于BERT的古文领域预训练模型，以BERT初始化，在古文语料上继续预训练而成。
+因此我们提出了 AnchiBERT，一种基于BERT的古文领域预训练模型，以BERT-base-Chinese初始化，在古文语料上继续预训练而成。
 
 
 ## 模型使用
@@ -22,7 +22,7 @@ config = BertConfig.from_pretrained('model_path/anchibert')
 tokenizer = BertTokenizer.from_pretrained('model_path/anchibert')
 model = BertModel.from_pretrained('model_path/anchibert',config=config)
 ```
-该模型是基于huggingface的代码继续预训练得到，在下游任务的使用上和huggingface的模型使用方式相同。
+该模型是基于huggingface的代码继续预训练得到，在下游任务的使用上和[Huggingface Transformers](https://github.com/huggingface/transformers)的模型使用方式相同。
 
 ## 模型下载
 
