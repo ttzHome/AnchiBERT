@@ -25,6 +25,12 @@ encoder = BertModel.from_pretrained('model_path/anchibert',config=config)
 
 ## 模型下载
 
+
+| 模型名称 | 大小 | 百度网盘 |
+| :-----  | :-- | :------ |
+| AnchiBERT(base) | 392M | [链接](https://pan.baidu.com/s/1FUiYUnE2u721x-tpmt3q1w) 提取码: g4kh |
+
+
 ## 引用
 该工作已经整理撰写成[论文](https://arxiv.org/abs/2009.11473)发表在IJCNN2021，欢迎在论文中引用本工作。
 ```bibtex
