@@ -73,7 +73,7 @@ AnchiBERT | **22.10** | **0.69**
 ### 实验4：对联生成
 该任务是从对联的前一句生成后一句。
 
-MODEL     | BLEU-2  | 人工评分
+MODEL     | BLEU  | 人工评分
 --------------  | ---- | :------: 
 LSTM  | 10.18 | -
 Seq2Seq  | 19.46 | -
@@ -83,6 +83,9 @@ Std-Transformer  | 27.14 | 0.61
 BERT-Base  | 33.01 | 0.63
 AnchiBERT  | **33.3**7 | **0.65**
 
+## 具体应用
+本预训练模型下游任务训练得到的古文翻译模型已经运用于微信小程序《不懂文言》，该小程序是一个趣味文言文学习小程序，能够提供文言文和白话文互译、收藏古文金句、填词断句小游戏等功能。
+![image](https://github.com/GeorgeLan/Research/blob/main/NLP/images/AI%E5%B0%8F%E7%BF%BB.jpg)<br>请扫描上方微信二维码<br>打开AI小翻微信小程序
 ## 引用
 该工作已经整理撰写成[论文](https://arxiv.org/abs/2009.11473)发表在IJCNN2021，欢迎在论文中引用本工作。
 ```bibtex
