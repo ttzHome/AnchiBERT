@@ -50,7 +50,7 @@ MODEL     | BLEU  | 人工评分
 Transformer-A  |  27.16 | -
 Std-Transformer  | 27.80 | 0.63
 BERT-Base  | 28.89 | 0.69
-AnchiBERT  | **31.22 | 0.71**
+AnchiBERT  | **31.22** | **0.71**
 
 ### 实验一：诗歌生成
 该任务是对古诗分类，分成送别诗、战争诗等等。
@@ -59,14 +59,14 @@ MODEL     | BLEU  | 人工评分
 --------------  | ---- | :------: 
 Std-Transformer | 27.47 | 0.69
 BERT-Base | 29.82 | 0.72
-AnchiBERT | **30.08 | 0.73**
+AnchiBERT | **30.08** | **0.73**
 
 任务二：从第一句生成后三句
 MODEL     | BLEU  | 人工评分
 --------------  | ---- | :------: 
 Std-Transformer | 19.52 | 0.63
 BERT-Base | 21.63 | 0.67
-AnchiBERT | **22.10 | 0.69**
+AnchiBERT | **22.10** | **0.69**
 
 ### 实验一：对联生成
 该任务是对古诗分类，分成送别诗、战争诗等等。
@@ -79,7 +79,7 @@ SeqGAN  | 10.23 | -
 NCM  | 20.55 | -
 Std-Transformer  | 27.14 | 0.61
 BERT-Base  | 33.01 | 0.63
-AnchiBERT  | **33.37 | 0.65**
+AnchiBERT  | **33.3**7 | **0.65**
 
 ## 引用
 该工作已经整理撰写成[论文](https://arxiv.org/abs/2009.11473)发表在IJCNN2021，欢迎在论文中引用本工作。
