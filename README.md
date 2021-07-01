@@ -16,7 +16,6 @@ AnchiBERT是一个基于BERT的古文领域预训练模型。
 ## 模型使用
 > 我们的模型是PyTorch版本，如需tensorflow版本请通过[huggingface](https://github.com/huggingface/transformers)提供的脚本进行转换。
 
-代码如下
 ```python
 from transformers import (BertTokenizer,BertConfig,BertModel)
 
@@ -33,6 +32,42 @@ model = BertModel.from_pretrained('model_path/AnchiBERT',config=config)
 | :-----  | :-- | :------ |
 | AnchiBERT(base) | 392M | [链接](https://pan.baidu.com/s/1FUiYUnE2u721x-tpmt3q1w) 提取码: g4kh |
 
+## 下游任务实验结果
+### 实验一：古诗分类
+该任务是对古诗分类，分成送别诗、战争诗等等。
+
+MODEL     | BLEU 
+--------------  |  :------: 
+Std-Transformer 69.96
+BERT-Base | 75.31
+AnchiBERT | 82.30
+
+### 实验一：古文翻译
+该任务是对古诗分类，分成送别诗、战争诗等等。
+
+MODEL     | BLEU  | 人工评分
+--------------  | ---- | :------: 
+Std-Transformer 69.96
+BERT-Base | 75.31
+AnchiBERT | 82.30
+
+### 实验一：诗歌生成
+该任务是对古诗分类，分成送别诗、战争诗等等。
+
+TASK\MODEL     | BERT | BERT-wwm 
+--------------  | ---- | :------: 
+金融短讯类型分类  | 0.867（0.874） | 0.867（0.877） 
+金融短讯类型分类  | 0.867（0.874） | 0.867（0.877） 
+金融短讯类型分类  | 0.867（0.874） | **0.895（0.897）**
+
+### 实验一：对联生成
+该任务是对古诗分类，分成送别诗、战争诗等等。
+
+TASK\MODEL     | BERT | BERT-wwm 
+--------------  | ---- | :------: 
+金融短讯类型分类  | 0.867（0.874） | 0.867（0.877） 
+金融短讯类型分类  | 0.867（0.874） | 0.867（0.877） 
+金融短讯类型分类  | 0.867（0.874） | **0.895（0.897）**
 
 ## 引用
 该工作已经整理撰写成[论文](https://arxiv.org/abs/2009.11473)发表在IJCNN2021，欢迎在论文中引用本工作。
