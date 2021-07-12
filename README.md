@@ -49,7 +49,7 @@ AnchiBERT | **82.30**
 
 MODEL     | BLEU  | 人工评分
 --------------  | ---- | :------: 
-Transformer-A  |  27.16 | -
+Transformer-A[1]  |  27.16 | -
 Std-Transformer  | 27.80 | 0.63
 BERT-Base  | 28.89 | 0.69
 AnchiBERT  | **31.22** | **0.71**
@@ -78,7 +78,7 @@ MODEL     | BLEU  | 人工评分
 LSTM  | 10.18 | -
 Seq2Seq  | 19.46 | -
 SeqGAN  | 10.23 | -
-NCM  | 20.55 | -
+NCM[2]  | 20.55 | -
 Std-Transformer  | 27.14 | 0.61
 BERT-Base  | 33.01 | 0.63
 AnchiBERT  | **33.37** | **0.65**
@@ -100,4 +100,6 @@ AnchiBERT下游任务训练得到的古文翻译模型已经运用于实验室�
 }
 ```
 
-
+## 参考文献
+[1] Ancient-Modern Chinese Translation with a New Large Training Dataset, **TALLIP** 2019 [[Paper]](https://arxiv.org/abs/1808.03738)
+[2] Chinese couplet generation with neural network structures,  **ACL** 2016 [[Paper]](https://doi.org/10.18653/v1/p16-1222)
