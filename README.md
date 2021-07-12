@@ -102,4 +102,5 @@ AnchiBERT下游任务训练得到的古文翻译模型已经运用于实验室�
 
 ## 参考文献
 [1] Ancient-Modern Chinese Translation with a New Large Training Dataset, **TALLIP** 2019 [[Paper]](https://arxiv.org/abs/1808.03738)
+
 [2] Chinese couplet generation with neural network structures,  **ACL** 2016 [[Paper]](https://doi.org/10.18653/v1/p16-1222)
