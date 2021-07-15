@@ -99,7 +99,13 @@ AnchiBERT下游任务训练得到的古文翻译模型已经运用于实验室�
 }
 ```
 
-## 参考文献
-[1] Ancient-Modern Chinese Translation with a New Large Training Dataset, **TALLIP** 2019 [[Paper]](https://arxiv.org/abs/1808.03738)
+## 相关文献
 
-[2] Chinese couplet generation with neural network structures,  **ACL** 2016 [[Paper]](https://doi.org/10.18653/v1/p16-1222)
+
+[1] Dayiheng Liu, Kexin Yang, Qian Qu, Jiancheng Lv. Ancient-Modern Chinese Translation with a New Large Training Dataset, ACM Transactions on Asian and Low-Resource Language Information Processing. TALLIP 2019.[[Paper]](https://arxiv.org/abs/1808.03738)
+
+[2] R. Yan, C. Li, X. Hu, and M. Zhang. Chinese couplet generation with neural network structures, The Association for Computational Linguistics. **ACL** 2016 [[Paper]](https://doi.org/10.18653/v1/p16-1222)
+
+[3] Yusen Liu*, Dayiheng Liu* (equal contribution), Jiancheng Lv. Deep Poetry: A Chinese Classical Poetry Generation System, Association for the Advancement of Artificial Intelligence, Demonstrations Program. AAAI 2020.
+
+
