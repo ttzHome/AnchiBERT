@@ -77,7 +77,7 @@ MODEL     | BLEU  | 人工评分
 LSTM  | 10.18 | -
 Seq2Seq  | 19.46 | -
 SeqGAN  | 10.23 | -
-NCM[2]  | 20.55 | -
+NCM[4]  | 20.55 | -
 Std-Transformer  | 27.14 | 0.61
 BERT-Base  | 33.01 | 0.63
 AnchiBERT  | **33.37** | **0.65**
@@ -104,8 +104,10 @@ AnchiBERT下游任务训练得到的古文翻译模型已经运用于实验室�
 
 [1] Dayiheng Liu, Kexin Yang, Qian Qu, Jiancheng Lv. Ancient-Modern Chinese Translation with a New Large Training Dataset, ACM Transactions on Asian and Low-Resource Language Information Processing. TALLIP 2019.[[Paper]](https://arxiv.org/abs/1808.03738)
 
-[2] R. Yan, C. Li, X. Hu, and M. Zhang. Chinese couplet generation with neural network structures, The Association for Computational Linguistics. **ACL** 2016 [[Paper]](https://doi.org/10.18653/v1/p16-1222)
+[2] Yusen Liu*, Dayiheng Liu* (equal contribution), Jiancheng Lv. Deep Poetry: A Chinese Classical Poetry Generation System, Association for the Advancement of Artificial Intelligence, Demonstrations Program. AAAI 2020.[[Paper]](https://arxiv.org/abs/1911.08212)
 
-[3] Yusen Liu*, Dayiheng Liu* (equal contribution), Jiancheng Lv. Deep Poetry: A Chinese Classical Poetry Generation System, Association for the Advancement of Artificial Intelligence, Demonstrations Program. AAAI 2020.
+[3] Kexin Yang, Dayiheng Liu, Qian Qu, Jiancheng Lv, Yongsheng Sang, An Automatic Evaluation Metric for Ancient-Modern Chinese Translation, Neural Computing and Applications. NCAA 2020.[[Paper]](https://link.springer.com/article/10.1007/s00521-020-05216-8)
+
+[4] R. Yan, C. Li, X. Hu, and M. Zhang. Chinese couplet generation with neural network structures, The Association for Computational Linguistics. ACL 2016 [[Paper]](https://doi.org/10.18653/v1/p16-1222)
 
 
